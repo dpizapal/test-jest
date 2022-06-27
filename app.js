@@ -10,14 +10,15 @@ let oneEuroIs = {
     "USD": 1.2, // us dollar
     "GBP": 0.8, // british pound
 }
-
+//dolar a yen
 function fromDollarToYen (dollar){
     return dollar*135.46;
 }
-
+//euro a dolar
 function fromEuroToDollar(euro){
     return euro*1.06;
 }
+//yen a pound
 function fromYenToPound(yen){
     return yen*0.0060;
 }
